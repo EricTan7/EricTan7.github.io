@@ -445,6 +445,21 @@ time {
   font-size: 14px;
 }
 
+.visitor-map-widget {
+  display: flex;
+  justify-content: center;
+  min-height: 210px;
+  padding: 12px 0 4px;
+  overflow-x: auto;
+}
+
+.visitor-map-widget img,
+.visitor-map-widget iframe,
+.visitor-map-widget canvas,
+.visitor-map-widget object {
+  max-width: 100%;
+}
+
 .footer {
   padding: 26px 0 0;
   color: var(--muted);
